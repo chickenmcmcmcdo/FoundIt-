@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./history.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM Sans:wght@500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Plus Jakarta Sans:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito Sans:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="history">
+      <div class="undraw-reviews-lp8w-parent">
+        <button class="undraw-reviews-lp8w">
+          <img
+            class="undraw-reviews-lp8w-child"
+            alt=""
+            src="./public/group-1000002051.svg"
+          />
+        </button>
+        <div class="reviews">Reviews</div>
+      </div>
+      <div class="undraw-shared-goals-re-jvqd-1-parent">
+        <button class="undraw-travel-mode-re-2lxo">
+          <img
+            class="undraw-shared-goals-re-jvqd-1-child"
+            alt=""
+            src="./public/group-1000002055.svg"
+          />
+        </button>
+        <div class="reviews">Check ins</div>
+      </div>
+      <div class="undraw-travel-mode-re-2lxo-parent">
+        <button class="undraw-travel-mode-re-2lxo">
+          <img
+            class="undraw-travel-mode-re-2lxo-child"
+            alt=""
+            src="./public/group-1000002057.svg"
+          />
+        </button>
+        <div class="reviews">Check outs</div>
+      </div>
+      <div class="name">History</div>
+      <footer class="footer1">
+        <div class="copyright-20241">
+          Copyright 2024 © Found It. All rights reserved
+        </div>
+      </footer>
+      <header class="header1">
+        <div class="nav2">
+          <img class="logo-icon1" alt="" src="./public/logo@2x.png" />
+
+          <div class="icons">
+            <button class="message" id="message">
+              <img class="shape-icon" alt="" src="./public/shape.svg" />
+
+              <div class="spanmuibadge-badge">
+                <div class="div">4</div>
+              </div>
+            </button>
+            <button class="friends" id="friends">
+              <img class="frame-icon" alt="" src="./public/frame.svg" />
+            </button>
+            <button class="notif">
+              <img class="svg-icon" alt="" src="./public/svg.svg" />
+
+              <div class="spanmuibadge-badge1">
+                <div class="div">2</div>
+              </div>
+            </button>
+            <button class="userimg">
+              <img
+                class="userimg-child"
+                alt=""
+                src="./public/ellipse-14@2x.png"
+              />
+            </button>
+            <button class="hamburger" id="hamburger">
+              <img class="vector-icon" alt="" src="./public/vector.svg" />
+            </button>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <div id="dropdownPopup" class="popup-overlay" style="display: none">
+      <div class="dropdown">
+        <div class="dropdown1">
+          <button class="button48" id="popupbutton">
+            <img
+              class="buttonmdiaccount-outline-icon"
+              alt=""
+              src="./public/buttonmdiaccountoutline.svg"
+            />
+
+            <div class="button49">Account</div>
+          </button>
+          <button class="button48" id="popupbutton1">
+            <img
+              class="buttonfluentshifts-activity-icon"
+              alt=""
+              src="./public/buttonfluentshiftsactivity24filled.svg"
+            />
+
+            <div class="button49">History</div>
+          </button>
+          <button class="button48" id="popupbutton2">
+            <img
+              class="buttonfluentshifts-activity-icon"
+              alt=""
+              src="./public/ggoptions.svg"
+            />
+
+            <div class="button49">Settings</div>
+          </button>
+          <button class="button48" id="popupbutton3">
+            <img
+              class="buttonfluentshifts-activity-icon"
+              alt=""
+              src="./public/humbleiconslogout.svg"
+            />
+
+            <div class="button49">Log Out</div>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var popupbutton = document.getElementById("popupbutton");
+      if (popupbutton) {
+        popupbutton.addEventListener("click", function (e) {
+          window.location.href = "./user-dash.html";
+        });
+      }
+      
+      var popupbutton1 = document.getElementById("popupbutton1");
+      if (popupbutton1) {
+        popupbutton1.addEventListener("click", function (e) {
+          window.location.href = "./history1.html";
+        });
+      }
+      
+      var popupbutton2 = document.getElementById("popupbutton2");
+      if (popupbutton2) {
+        popupbutton2.addEventListener("click", function (e) {
+          window.location.href = "./settings.html";
+        });
+      }
+      
+      var popupbutton3 = document.getElementById("popupbutton3");
+      if (popupbutton3) {
+        popupbutton3.addEventListener("click", function (e) {
+          window.location.href = "./landing.html";
+        });
+      }
+      
+      var message = document.getElementById("message");
+      if (message) {
+        message.addEventListener("click", function (e) {
+          window.location.href = "./chats.html";
+        });
+      }
+      
+      var friends = document.getElementById("friends");
+      if (friends) {
+        friends.addEventListener("click", function (e) {
+          window.location.href = "./study-bud-feed.html";
+        });
+      }
+      
+      var hamburger = document.getElementById("hamburger");
+      if (hamburger) {
+        hamburger.addEventListener("click", function () {
+          var popup = document.getElementById("dropdownPopup");
+          if (!popup) return;
+          var popupStyle = popup.style;
+          if (popupStyle) {
+            popupStyle.display = "flex";
+            popupStyle.zIndex = 100;
+            popupStyle.backgroundColor = "rgba(113, 113, 113, 0.3)";
+            popupStyle.alignItems = "flex-end";
+            popupStyle.justifyContent = "";
+          }
+          popup.setAttribute("closable", "");
+      
+          var onClick =
+            popup.onClick ||
+            function (e) {
+              if (e.target === popup && popup.hasAttribute("closable")) {
+                popupStyle.display = "none";
+              }
+            };
+          popup.addEventListener("click", onClick);
+        });
+      }
+      </script>
+  </body>
+</html>

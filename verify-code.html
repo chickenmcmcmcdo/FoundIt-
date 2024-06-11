@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./verify-code.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM Sans:wght@500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Plus Jakarta Sans:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito Sans:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap"
+    />
+  </head>
+  <body>
+    <div class="verify-code">
+      <div class="frame-parent1">
+        <div class="frame-parent2">
+          <div class="frame-parent3">
+            <div class="chevron-back-group">
+              <img
+                class="chevron-back-icon1"
+                alt=""
+                src="./public/chevron-back.svg"
+              />
+
+              <div class="back-to-login1">Back to login</div>
+            </div>
+            <div class="verify-code-parent">
+              <div class="verify-code1">Verify code</div>
+              <div class="an-authentication-code">
+                An authentication code has been sent to your email.
+              </div>
+            </div>
+          </div>
+          <div class="frame-parent4">
+            <div class="frame-parent3">
+              <div class="email6">
+                <div class="emailbox2">
+                  <input class="input-text14" type="text" />
+                </div>
+                <div class="label-text28">
+                  <div class="label-text29">Enter Code</div>
+                </div>
+              </div>
+              <div class="didnt-receive-a-container">
+                <span class="didnt-receive-a">Didn’t receive a code?</span>
+                <span class="resend"> Resend</span>
+              </div>
+            </div>
+            <button class="login7" id="login">
+              <div class="style-layer4">
+                <div class="button9">Verify</div>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="undraw-mail-re-duel">
+          <img
+            class="undraw-mail-re-duel-child"
+            alt=""
+            src="./public/group-1000002049.svg"
+          />
+        </div>
+        <div class="rectangle-parent1">
+          <div class="frame-child11"></div>
+          <div class="ellipse-div"></div>
+          <div class="ellipse-div"></div>
+        </div>
+      </div>
+      <img class="logo-icon6" alt="" src="./public/logo@2x.png" />
+    </div>
+
+    <script>
+      var login = document.getElementById("login");
+      if (login) {
+        login.addEventListener("click", function (e) {
+          window.location.href = "./set-new-pass.html";
+        });
+      }
+      </script>
+  </body>
+</html>

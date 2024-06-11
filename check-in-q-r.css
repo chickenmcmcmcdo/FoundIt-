@@ -1,0 +1,98 @@
+.check-in-qr-child {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  border-radius: var(--br-7xs);
+  width: 680px;
+  height: 638px;
+}
+.back-button-item {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-6xs);
+  background-color: var(--color-gray-800);
+}
+.back1 {
+  position: absolute;
+  top: 28.57%;
+  left: 35.55%;
+  font-size: var(--text-md-medium-size);
+  font-weight: 500;
+  font-family: var(--text-md-semibold);
+  color: var(--ffffff);
+  text-align: center;
+}
+.back-button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 552px;
+  left: 264px;
+  width: 154.7px;
+  height: 45.5px;
+}
+.dont-forget-to {
+  margin: 0;
+}
+.check-in-qr1,
+.text5 {
+  position: absolute;
+  top: 473px;
+  left: 136px;
+  font-weight: 500;
+}
+.check-in-qr1 {
+  top: 351px;
+  left: 233px;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  color: var(--t);
+  text-align: left;
+}
+.text6 {
+  position: absolute;
+  top: 401px;
+  left: 71px;
+  font-weight: 500;
+  color: var(--color-gray-900);
+}
+.undraw-mail-sent-re-0ofv-child {
+  width: 211px;
+  position: relative;
+  height: 176px;
+}
+.undraw-mail-sent-re-0ofv {
+  position: absolute;
+  top: 81px;
+  left: 210px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-mini);
+  background-color: #fff7ef;
+  border: 2px solid var(--color-gainsboro-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-11xl) 25px;
+}
+.check-in-qr {
+  width: 682px;
+  position: relative;
+  border-radius: var(--br-7xs);
+  height: 640px;
+  max-width: 90%;
+  max-height: 90%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--text-md-medium-size);
+  color: var(--color-dimgray-100);
+  font-family: var(--text-md-semibold);
+}
